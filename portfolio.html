@@ -14,13 +14,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="page-container">
-      <div class="container">
-        <header class="header-container">
-          <a href="./index.html" class="logo"
-            >Web<span class="studio-header">Studio</span></a
-          >
-          <nav>
+    <div class="container">
+      <header class="header-container">
+        <div class="container nav-container">
+          <nav class="page-nav">
+            <a href="./index.html" class="logo"
+              >Web<span class="studio-header">Studio</span></a
+            >
             <ul class="page-nav">
               <li><a class="nav-link active" href="./index.html">Studio</a></li>
               <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
@@ -41,11 +41,12 @@
               </li>
             </ul>
           </address>
-        </header>
-      </div>
+        </div>
+      </header>
+    </div>
     <main>
-      <section class="filter-group">
-        <div class="container section">
+      <section class="section">
+        <div class="container">
           <h1 class="main-header invisible">Portfolio</h1>
           <ul class="card-set filter-set">
             <li><button type="button" class="btn">All</button></li>
@@ -56,56 +57,108 @@
           </ul>
           <ul class="card-set">
             <li class="card action-item">
-              <img src="./images/portfolio/pc1.jpg" alt="banking" width="360" height="300" />
-              <h2 class="header-card">Banking App Interface Concept</h2>
-              <p class="desc">App</p>
-            </li>
-            <li class="card  action-item">
-              <img src="./images/portfolio/pc2.jpg" alt="cashless" width="360" height="300" />
-              <h2 class="header-card">Cashless Payment</h2>
-              <p class="desc">Marketing</p>
-            </li>
-            <li class="card action-item">
-              <img src="./images/portfolio/pc3.jpg" alt="Meditation App" width="360" height="300" />
-              <h2 class="header-card">Meditation App</h2>
-              <p class="desc">App</p>
+              <img
+                src="./images/portfolio/pc1.jpg"
+                alt="banking"
+                width="360"
+                height="300" />
+              <div class="card-info">
+                <h2 class="header-card">Banking App Interface Concept</h2>
+                <p class="desc">App</p>
+              </div>
             </li>
             <li class="card action-item">
-              <img src="./images/portfolio/pc4.jpg" alt="Taxi Service" width="360" height="300" />
-              <h2 class="header-card">Taxi Service</h2>
-              <p class="desc">Marketing</p>
+              <img
+                src="./images/portfolio/pc2.jpg"
+                alt="cashless"
+                width="360"
+                height="300" />
+              <div class="card-info">
+                <h2 class="header-card">Cashless Payment</h2>
+                <p class="desc">Marketing</p>
+              </div>
             </li>
             <li class="card action-item">
-              <img src="./images/portfolio/pc5.jpg" alt="Screen Illustrations" width="360" height="300" />
-              <h2 class="header-card">Screen Illustrations</h2>
-              <p class="desc">Design</p>
+              <img
+                src="./images/portfolio/pc3.jpg"
+                alt="Meditation App"
+                width="360"
+                height="300" />
+              <div class="card-info">
+                <h2 class="header-card">Meditation App</h2>
+                <p class="desc">App</p>
+              </div>
             </li>
             <li class="card action-item">
-              <img src="./images/portfolio/pc6.jpg" alt="Online Courses" width="360" height="300" />
+              <img
+                src="./images/portfolio/pc4.jpg"
+                alt="Taxi Service"
+                width="360"
+                height="300" />
+              <div class="card-info">
+                <h2 class="header-card">Taxi Service</h2>
+                <p class="desc">Marketing</p>
+              </div>
+            </li>
+            <li class="card action-item">
+              <img
+                src="./images/portfolio/pc5.jpg"
+                alt="Screen Illustrations"
+                width="360"
+                height="300" />
+              <div class="card-info">
+                <h2 class="header-card">Screen Illustrations</h2>
+                <p class="desc">Design</p>
+              </div>
+            </li>
+            <li class="card action-item">
+              <img
+                src="./images/portfolio/pc6.jpg"
+                alt="Online Courses"
+                width="360"
+                height="300" />
               <h2 class="header-card">Online Courses</h2>
               <p class="desc">Marketing</p>
             </li>
             <li class="card action-item">
-              <img src="./images/portfolio/pc7.jpg" alt="Instagram Stories" width="360" height="300" />
-              <h2 class="header-card">Instagram Stories Concept</h2>
-              <p class="desc">Design</p>
+              <img
+                src="./images/portfolio/pc7.jpg"
+                alt="Instagram Stories"
+                width="360"
+                height="300" />
+              <div class="card-info">
+                <h2 class="header-card">Instagram Stories Concept</h2>
+                <p class="desc">Design</p>
+              </div>
             </li>
             <li class="card action-item">
-              <img src="./images/portfolio/pc8.jpg" alt="Organic Food" width="360" height="300" />
-              <h2 class="header-card">Organic Food</h2>
-              <p class="desc">Web Site</p>
+              <img
+                src="./images/portfolio/pc8.jpg"
+                alt="Organic Food"
+                width="360"
+                height="300" />
+              <div class="card-info">
+                <h2 class="header-card">Organic Food</h2>
+                <p class="desc">Web Site</p>
+              </div>
             </li>
             <li class="card action-item">
-              <img src="./images/portfolio/pc9.jpg" alt="Fresh Coffee" width="360" height="300" />
-              <h2 class="header-card">Fresh Coffee</h2>
-              <p class="desc">Web Site</p>
+              <img
+                src="./images/portfolio/pc9.jpg"
+                alt="Fresh Coffee"
+                width="360"
+                height="300" />
+              <div class="card-info">
+                <h2 class="header-card">Fresh Coffee</h2>
+                <p class="desc">Web Site</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="foot">
-      <div class="container foot-container">
+      <div class="container">
         <div class="footer-text">
           <a href="./index.html" class="logo"
             >Web<span class="studio">Studio</span></a
@@ -117,6 +170,5 @@
         </div>
       </div>
     </footer>
-  </div>
   </body>
 </html>
