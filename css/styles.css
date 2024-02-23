@@ -115,7 +115,8 @@ img {
 }
 
 .centered {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -137,7 +138,7 @@ img {
   text-transform: uppercase;
   color: var(--iris);
   padding: 24px 0;
-  padding-right: 76px;
+  margin-right: 76px;
 }
 
 .studio-header {
@@ -236,7 +237,8 @@ img {
 
 .footer-text > .logo {
   display: block;
-  padding-bottom: 16px;
+  padding: 0;
+  margin-bottom: 16px;
 }
 
 .team-section {
@@ -291,4 +293,9 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
